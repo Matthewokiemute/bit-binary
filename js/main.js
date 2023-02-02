@@ -230,3 +230,4 @@ $('.dashboard-right-menus>li').on('click', function(){
 	
 
 })(jQuery);
+
