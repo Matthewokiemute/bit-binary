@@ -65,6 +65,10 @@ body {
     font-size: 16px;
 }
 
+.logomine{
+    color: #FC0077;
+}
+
 .img,img {
     max-width: 100%;
     transition: all 0.3s ease-out 0s;
@@ -94,6 +98,8 @@ a:hover{
     color: #FC0077;
     text-decoration: none;
 }
+
+
 
 a,
 button {
@@ -261,7 +267,7 @@ label {
    color:#ddd; 
 }
 .section-headline p {
-    width: 480px;
+    width: 100%;
     margin: 0px auto 15px;
     color:#ddd; 
 }
@@ -963,11 +969,14 @@ span.users {
     padding: 0 0 10px;
     font-weight: 600;
 }
+
+/*-----------------------
 .single-how.first-item,
 .single-how.thired-item{
     position: relative;
     top: 60px;
 }
+-----------------*/
 .h-number {
     width: 40px;
     height: 40px;
