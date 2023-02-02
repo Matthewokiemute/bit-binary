@@ -969,11 +969,14 @@ span.users {
     padding: 0 0 10px;
     font-weight: 600;
 }
+
+/*-----------------------
 .single-how.first-item,
 .single-how.thired-item{
     position: relative;
     top: 60px;
 }
+-----------------*/
 .h-number {
     width: 40px;
     height: 40px;
