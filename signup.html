@@ -36,19 +36,22 @@
           <div class="col-xl-6 col-lg-6 col-md-8">
             <div class="login-form signup-form">
               <h4 class="login-title text-center">REGISTER</h4>
-              <form
-                id="contactForm"
-                method="POST"
-                action="https://rockstheme.com/rocks/live-goldhyip/contact.php"
-                class="log-form"
-              >
+              <div id="contactForm" class="log-form">
                 <input
                   type="text"
                   id="name"
                   class="form-control"
+                  placeholder="Full Name"
+                  required
+                  data-error="Please enter your fullname"
+                />
+                <input
+                  type="text"
+                  id="username"
+                  class="form-control"
                   placeholder="Username"
                   required
-                  data-error="Please enter your name"
+                  data-error="Please enter your username"
                 />
                 <input
                   type="email"
@@ -66,9 +69,11 @@
                   required
                   data-error="Please enter your phone number"
                 />
-                <select id="countries" name="countriess" class="form-control">
-                    <option></option>
-                </select>
+                <select
+                  id="countries"
+                  name="countriess"
+                  class="form-control"
+                ></select>
                 <input
                   type="password"
                   id="msg_subject"
@@ -125,7 +130,7 @@
                     Already have an account? <a href="login.html">Login</a>
                   </div>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
@@ -134,7 +139,73 @@
     <!-- End Slider Area -->
 
     <!-- All JS here -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.0/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
 
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyBMTXJwxRJyw_FGdk_t1H97cBNmbsdRJUw",
+        authDomain: "binary-675cb.firebaseapp.com",
+        projectId: "binary-675cb",
+        storageBucket: "binary-675cb.appspot.com",
+        messagingSenderId: "1069173000484",
+        appId: "1:1069173000484:web:2304629b7b4ae848108bb1",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+
+      import {
+        getDatabase,
+        set,
+        get,
+        update,
+        remove,
+        ref,
+      } from "https://www.gstatic.com/firebasejs/9.17.0/firebase-database.js";
+
+      const db = getDatabase();
+
+      let name = document.querySelector("#name");
+      let username = document.querySelector("#username");
+      let email = document.querySelector("#email");
+      let contact = document.querySelector("#contact");
+      let password = document.querySelector("#msg_subject");
+      let confirmPassword = document.querySelector("#cmsg_subject");
+
+      let submitBtn = document.querySelector("#submit");
+
+      function registerUser() {
+        set(ref(db, "Users/" + username.value), {
+          Name: name.value,
+          Username: username.value,
+          Email: email.value,
+          Contact: contact.value,
+          Password: password.value,
+          ConfirmPassword: confirmPassword.value,
+        })
+          .then(() => {
+            alert("User sucessfully registered!");
+            window.location = "user-info.html";
+          })
+          .catch((error) => {
+            alert(error);
+          });
+      }
+
+      function findUser() {
+        const dbRef = ref(db);
+
+        get(child(dbRef, ""))
+      }
+
+      submitBtn.addEventListener("click", registerUser);
+    </script>
+    <!-- new js -->
+    <script src="js/new.js"></script>
     <!-- modernizr JS -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <!-- jquery latest version -->
@@ -147,8 +218,6 @@
     <script src="js/plugins.js"></script>
     <!-- main js -->
     <script src="js/main.js"></script>
-    <!-- new js -->
-    <script src="js/new.js"></script>
   </body>
 
   <!-- Mirrored from rockstheme.com/rocks/live-goldhyip/signup.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 16:33:40 GMT -->
