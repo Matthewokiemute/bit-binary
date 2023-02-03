@@ -59,7 +59,7 @@
                                 <option>Deu</option>
                             </select>
                             <ul>
-                                <li><a href="#"><img src="img/icon/login.png" alt="">Login</a>
+                                <li><a href="login.html"><img src="img/icon/login.png" alt="">Login</a>
                             </ul>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-9">
                         <div class="header-right">
-                            <a href="contact.html" class="hd-btn">Signup</a>
+                            <a href="signup.html" class="hd-btn">Signup</a>
                         </div>
                         <div class="header_menu f-right">
                             <nav id="mobile-menu">
@@ -88,7 +88,7 @@
                                     <li><a href="plan.html">Investment</a></li>
                                     <li class="menu-item-has-children"><a href="#">Pages</a>
                                         <ul class="submenu">
-                                            <li><a href="about.html">About us</a></li>
+                                            <li><a href="about.html">About us</a></li>  
                                             <li><a href="review.html">Reviews</a></li>
                                             <li><a href="faq.html">FAQ</a></li>
                                             <li><a href="team.html">Our teams</a></li>
@@ -140,7 +140,7 @@
                                     </div>
                                     <!-- layer 3 -->
                                         <div class="layer-3 wow fadeInUp" data-wow-delay="0.7s">
-                                        <a href="services.html" class="ready-btn" >Get Started</a>
+                                        <a href="signup.html" class="ready-btn" >Get Started</a>
                                     </div>
 								</div>
 							</div>
@@ -1221,6 +1221,29 @@
     <!-- End Footer Area -->
 
     <!-- All JS here -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyBMTXJwxRJyw_FGdk_t1H97cBNmbsdRJUw",
+          authDomain: "binary-675cb.firebaseapp.com",
+          projectId: "binary-675cb",
+          storageBucket: "binary-675cb.appspot.com",
+          messagingSenderId: "1069173000484",
+          appId: "1:1069173000484:web:2304629b7b4ae848108bb1"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+
+        import { getDatabase, set, get, update, remove, ref } from "https://www.gstatic.com/firebasejs/9.17.0/firebase-database.js";
+
+        const db = getDatabase();
+      </script>
 
     <!-- modernizr JS -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
