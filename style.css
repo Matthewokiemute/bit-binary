@@ -342,7 +342,7 @@ div#preloader {
 	width: 100%;
 	height: 100%;
 	overflow: visible;
-	background: daa520 url('img/logo/preloader.gif') no-repeat center center;
+	background: #150550 url('img/logo/preloader.gif') no-repeat center center;
 }
 /*--------------------------------*/
 /*  2. Header top Area
@@ -397,7 +397,7 @@ div#preloader {
     padding: 4px 5px;
 }
 .topbar-right select option {
-    background-color: daa520;
+    background-color: #150550;
     padding: 10px 0;
     display: block;
     border-top: 1px solid #e5e5e5;
@@ -445,7 +445,7 @@ div#preloader {
 }
 .header_menu ul li ul.submenu {
 	position: absolute;
-	background: daa520;
+	background: #150550;
 	width: 220px;
 	top: 110%;
 	left: 0;
@@ -617,9 +617,9 @@ div#preloader {
    overflow: hidden;
 }
 .single-fun {
-    border: 1px solid daa520;
+    border: 1px solid #150550;
     padding: 30px;
-    background: daa520;
+    background: #150550;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -678,7 +678,7 @@ div#preloader {
 }
 .support-services {
     padding: 30px 20px 20px 30px;
-    background: daa520;
+    background: #150550;
     margin-bottom: 30px;
     border-radius: 3px;
 }
@@ -810,8 +810,8 @@ span.users {
     padding: 40px 30px;
     position: relative;
     overflow: hidden;
-    border: 1px solid daa520;
-    background: daa520;
+    border: 1px solid #150550;
+    background: #150550;
     margin-bottom: 30px;
     border-radius: 4px;
     z-index: 1;
@@ -893,7 +893,7 @@ span.users {
 /* 7. why choose  Area
 /*--------------------------------*/
 .choose-services {
-    background: daa520;
+    background: #150550;
     position: relative;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     z-index: 1;
@@ -903,7 +903,7 @@ span.users {
     transition: 0.4s;
     z-index: 1;
     margin-bottom: 30px;
-    border:1px solid daa520;
+    border:1px solid #150550;
 }
 .choose-images {
     font-size: 54px;
@@ -947,7 +947,7 @@ span.users {
     transition: 0.4s;
     padding: 40px 30px;
     border-radius: 5px;
-    background: daa520;
+    background: #150550;
 }
 .how-wel {
     padding: 20px 0px 0px;
@@ -1041,7 +1041,7 @@ span.users {
 .diposite-box {
     width: 100%;
     margin: 0 auto;
-    background: daa520;
+    background: #150550;
     position: relative;
     text-align: center;
 }
@@ -1112,7 +1112,7 @@ span.users {
     background-color: #7B1284 !important;
 }
 .profit-calculater-inner select option {
-    background-color: daa520;
+    background-color: #150550;
     padding: 10px 0;
     display: block;
     border-top: 1px solid #e5e5e5;
@@ -1134,7 +1134,7 @@ span.users {
     margin-bottom: 30px;
 }
 .profit-calculater-inner {
-    background: daa520;
+    background: #150550;
     padding: 60px 40px;
     border-radius: 4px;
 }
@@ -1162,7 +1162,7 @@ span.users {
     text-transform: capitalize;
     transition: all 0.4s ease 0s;
     border-radius: 3px;
-    background: daa520;
+    background: #150550;
 }
 .reviews-btn:hover {
     color: #fff;
@@ -1172,8 +1172,8 @@ span.users {
 .clients-text {
     padding: 30px 30px;
     position: relative;
-    background-color: daa520;
-    border: 1px solid daa520;
+    background-color: #150550;
+    border: 1px solid #150550;
     border-radius: 4px;
 }
 .testi-img {
@@ -1233,8 +1233,8 @@ span.users {
     padding: 0px 5px 0px 0px;
 }
 .testimonial-carousel.owl-carousel .owl-nav div {
-    background: daa520;
-    border: 1px solid daa520;
+    background: #150550;
+    border: 1px solid #150550;
     border-radius: 50%;
     color: #fff;
     display: inline-block;
@@ -1366,7 +1366,7 @@ span.users {
 .blog-content {
     padding: 30px;
     border-top: none;
-    background:daa520;
+    background:#150550;
 }
 .single-blog {
     position: relative;
@@ -1413,7 +1413,7 @@ span.users {
     margin-top: -110px;
 }
 .subscribe-inner {
-    background: daa520;
+    background: #150550;
     padding: 100px 40px;
     border-radius: 4px;
     margin: 0px 60px;
@@ -1559,7 +1559,7 @@ span.users {
     background: #FC0077;
 }
 .footer-area-bottom {
-    background: daa520 none repeat scroll 0 0;
+    background: #150550 none repeat scroll 0 0;
     padding: 25px 0;
 }
 .copyright-text a:hover{
@@ -1690,8 +1690,8 @@ span.users {
     display: block;
 }
 .single-member {
-    border: 1px solid daa520;
-    background: daa520;
+    border: 1px solid #150550;
+    background: #150550;
     padding: 20px;
     border-radius: 4px;
 }
@@ -1846,7 +1846,7 @@ span.terms-text {
     margin-bottom: 30px;
 }
 .terms-right {
-    background: daa520;
+    background: #150550;
     padding: 40px 30px 30px;
     overflow: hidden;
 }
@@ -1919,7 +1919,7 @@ span.terms-text {
 }
 .login-overlay {
     position: absolute;
-    background: daa520;
+    background: #150550;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
@@ -1930,7 +1930,7 @@ span.terms-text {
     opacity: 0.6;
 }
 .login-form {
-    background: daa520;
+    background: #150550;
     padding: 40px 50px;
     margin: 0px 40px;
     border-radius: 4px;
@@ -2100,7 +2100,7 @@ span.terms-text {
 /*  22. Blog Deails Area
 /*----------------------------------------*/
 .left-blog-page {
-    background: daa520;
+    background: #150550;
     box-shadow: 0 5px 40px 10px #15025a;
     padding: 20px 30px;
     margin-bottom: 30px;
@@ -2289,7 +2289,7 @@ span.terms-text {
     line-height: 1.42857143;
     text-decoration: none;
     color: #eee;
-    background-color: daa520;
+    background-color: #150550;
     border: none;
     margin-left: -1px;
     border-radius: 2px;
@@ -2372,8 +2372,8 @@ span.terms-text {
 	border-radius: 50%;
 }
 .comments-details {
-    background: daa520;
-    border: 1px solid daa520;
+    background: #150550;
+    border: 1px solid #150550;
     overflow: hidden;
     padding: 30px;
 }
@@ -2394,7 +2394,7 @@ blockquote {
     border-left: none;
     font-style: italic;
     position: relative;
-    background: daa520;
+    background: #150550;
 }
 blockquote::before {
     position: absolute;
@@ -2548,26 +2548,26 @@ span.email-notes{
     display: block;
     overflow: hidden;
     padding: 40px;
-    background: daa520;
+    background: #150550;
     border-radius: 4px;
     margin-right: 50px;
 }
 .contact-form input[type="text"], .contact-form input[type="email"] {
-    border: 1px solid daa520;
+    border: 1px solid #150550;
     border-radius: 0;
     height: 50px;
     margin-bottom: 15px;
     padding-left: 20px;
     width: 100%;
-    background: daa520;
+    background: #150550;
 }
 .contact-form textarea#message {
-    border: 1px solid daa520;
+    border: 1px solid #150550;
     border-radius: 0px;
     height: 220px;
     padding: 20px;
     width: 100%;
-    background: daa520;
+    background: #150550;
 }
 .contact-page .contact-btn {
     background: #FC0077;
@@ -2594,7 +2594,7 @@ span.email-notes{
 .contact-single {
     padding: 50px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-    border: 1px solid daa520;
+    border: 1px solid #150550;
     margin-top: 50px;
 }
 .club-btn {
@@ -2625,11 +2625,11 @@ span.email-notes{
 /* 24 .Dashboard CSS
 /*--------------------------------*/
 .dashboard-side {
-    background: daa520;
+    background: #150550;
     padding: 30px 0px;
 }
 .single-dash-head{
-    background: daa520;
+    background: #150550;
     margin-bottom: 30px;
     padding: 20px;
 }
@@ -2710,7 +2710,7 @@ span.email-notes{
     height: 54px;
 }
 .table-inner tr:nth-child(even) {
-  background-color: daa520;
+  background-color: #150550;
 }
 .table-inner td i {
     color:#EA472A;
@@ -2749,7 +2749,7 @@ span.email-notes{
     display: block;
 }
 .dashboard-header-right {
-    background: daa520;
+    background: #150550;
     padding: 15px 20px;
     margin-bottom: 30px;
     justify-content: space-between;
@@ -2860,11 +2860,11 @@ span.email-notes{
 .notification-area .notifacation-header {
     padding: 16px 20px;
     position: relative;
-    border-bottom: 1px solid daa520;
+    border-bottom: 1px solid #150550;
 }
 .notifacation-footer {
     padding: 10px 0px;
-    border-top: 1px solid daa520;
+    border-top: 1px solid #150550;
 }
 .notification-area .notification-body {
     padding: 15px 20px;
@@ -2915,7 +2915,7 @@ span.email-notes{
 /*  26.User Information CSS
 /*----------------------------------------*/
 .user-info-inner {
-    background-color: daa520;
+    background-color: #150550;
     padding: 30px 30px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
